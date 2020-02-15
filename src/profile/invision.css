@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html.body{
+    width: 100%;
+    height: 100%;
+}
+.outerSection{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.side-bar{
+    line-height: 2em;
+    padding: 30px;
+    padding-top:30vh ;
+    background-color: lightgray;
+}
+
+
+.main-section{
+    line-height: 0.5em;
+    padding: 80px;
+    padding-top: 30vh;
+    background-color: white;
+    padding-left: 29vh;
+}
+.main-section > header >h2{
+    padding: 10px;
+    font-weight: 200px;    
+    margin: 8px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#title {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 8px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.main-section > .fillDetails > input{
+    width: 550px;
+    height: 40px;
+    border-radius: 6px;
+    outline-style: none;
+   border-width: 1px;
+}
+.main-section > .fillDetails > input:hover{
+    box-shadow: 0 0 2px;
+}
+.main-section > .fillDetails > p{
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fillDetails{
+   margin-left: 20px;
+}
+
+#enterValue{
+    margin-bottom: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 12px;
+}
+#enterValue1{
+    margin-bottom: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 12px;
+}
+#userMailid{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 2px;
+    font-size: 13px;
+}
+#floating{
+    margin-right: 18vh;
+    margin-top: 7px;
+    float:right;
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    opacity: 0.96;
+}
+#floating > a  {
+    outline-style: none;
+    list-style: none;
+   text-decoration: none;
+    color: gray;
+}
+#userPassword{
+    width: 10vh;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 2px;
+    border: 0;
+    font-size: 13px;
+}
+.enteredPassword{
+    margin-top: 10px;
+}
+#formSubmitBtn{
+    margin-top: 36px;
+    margin-left: 28vh;
+    width: 165px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    align-self: center;
+    outline-style: none;
+    background-color: palevioletred;
+}
+#formSubmitBtn:hover{
+    box-shadow: 0px 5px 10px black;   
+}
