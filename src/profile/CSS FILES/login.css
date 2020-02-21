@@ -1,0 +1,382 @@
+/*------ MAIN BODY CONTENT -----*/
+
+body{
+    width: 10vh;
+    height: 100vh;
+    margin: 0;
+}
+
+/*-------------------- HEADER SECTION ---------------*/
+.header{
+       width: 100%;
+       height: 10%;
+       margin-bottom: 20px;
+       padding-bottom: 10px;
+       position: absolute;
+       top: 0;
+       left: 0;
+}
+#invision-title{
+    padding: 5px;
+    text-align: center;
+    color: black;
+    height: 60px;
+    font-size: 30px;
+    color: #fff;
+}
+.floating-content-in-header{
+    text-align: right;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#question-tag{
+    margin-right: 9px;
+    padding-right: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+}
+#sign-up-btn{
+    margin-right: 9px;
+    font-size: 15px;
+    border-radius: 20px;
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    outline-style: none;
+    background-color: palevioletred;
+    padding: 0;
+}
+#sign-up-btn:hover{
+    box-shadow: 0px 5px 10px black;   
+}
+
+/*------------------ ASIDE SECTION --------------------*/
+
+.aside-content{
+    width: 63vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+}
+#aside-section-content{
+    position: absolute;
+    top: 40vh;
+    left: 0;
+    font-size: 20px;
+    padding-left:10px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#background-img-aside-section{
+    background-image: url('../IMAGES/aside-background-img.jpg');
+    opacity: 0.6;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 63vh;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    bottom: 0;
+}
+#aside-footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 63vh;
+}
+
+
+/*------------------ MAIN CONTENT SECTION -------------------*/
+
+
+/*----------- SUB MAIN CONTENT SECTION --------*/
+.main-section-content{
+    left: 43%;
+    top: 27%;
+    position: absolute;
+}
+.sub-main-section-content{
+     display: block;
+}
+#title-of-invision{
+    font-weight: 200px;    
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#invision-saying-content{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+#label-for-mail-id{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding-bottom: 20px;
+    margin-left: 2px;
+    font-size: 14px;
+}
+#mail-id-input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 550px;
+    height: 40px;
+    border-radius: 6px;
+    outline-style: none;
+   border-width: 1px;
+   padding: 5px;
+    padding-left: 12px;
+    border-color: lightgray;
+}
+#mail-id-input:hover{
+    box-shadow: 0 0 2px;
+}
+#label-for-password{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 2px;
+    font-size: 14px;
+}
+#password-input{
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 12px;
+    width: 550px;
+    height: 40px;
+    border-radius: 6px;
+    outline-style: none;
+   border-width: 1px;
+   border-color: lightgray;
+}
+#password-input:hover{
+    box-shadow: 0 0 2px;
+}
+#submit-login-btn{
+    margin-top: 36px;
+    margin-left: 28vh;
+    width: 165px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    align-self: center;
+    outline-style: none;
+    background-color: palevioletred;
+}
+#submit-login-btn:hover{
+    box-shadow: 0px 5px 10px black;   
+}
+#main-section-footer-content{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+   text-align: center;
+}
+#display-error-message{
+    display: none;
+    color: red;
+    font-weight: 100px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+#forgot-password{
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 7px;
+    opacity: 0.96;   
+     outline-style: none;
+    list-style: none;
+   text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+
+
+/*----------- SUB HIDDEN MAIN CONTENT SECTION --------*/
+
+.hidden-sign-up-section{
+    display: none;
+    left: 43%;
+    top: 27%;
+    position: absolute;
+    display: none;
+}
+#user-mail-id-label{
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 2px;
+    font-size: 13px;
+}
+#mail-id-hidden-section-input{
+    margin-bottom: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 12px;
+    width: 550px;
+    height: 40px;
+    border-radius: 6px;
+    outline-style: none;
+   border-width: 1px;
+   border-color: lightgray;
+
+}
+#phone-number-label{
+    width: 20vh;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 2px;
+    border: 0;
+    font-size: 13px;    
+}
+#mobile-number-hidden-section-input{
+    margin-bottom: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 12px;
+    width: 550px;
+    height: 40px;
+    border-radius: 6px;
+    outline-style: none;
+   border-width: 1px;
+   border-color: lightgray;
+
+}
+#login-back{
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 100px;
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;
+    outline-style: none;
+    list-style: none;
+}
+#login-text-hidden-section{
+    width: 30vh;
+    outline-style: none;
+    list-style: none;
+   text-decoration: none;
+    color: gray;
+}
+
+#error-message-hidden{
+   display: none;
+    color: red;
+    font-weight: 100px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+#signup-login-btn{
+    margin-top: 36px;
+    margin-left: 28vh;
+    width: 165px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    align-self: center;
+    outline-style: none;
+    background-color: palevioletred;
+}
+#signup-login-btn:hover{
+    box-shadow: 0px 5px 10px black;   
+}
+#display-hidden-error-message{
+    display: none;
+    color: red;
+    font-weight: 100px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+/*--------------------------- END OF MAIN CONTENT SECTION ----------------------------*/
+
+/*-------------------- FORGOT PASSWORD PAGE -------------------*/
+.forgot-password-page{
+    display: none;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin: 30px;
+    padding-top: 5vh;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    transform: translate( -50%,-50%);
+    display: none;
+}
+#sign-in-otp-generate{
+
+}
+#OTP-section-para{
+    padding: 20px;
+padding-left: 0;
+padding-top: 0;
+padding: 0;
+margin: 0;
+margin-bottom: 12px;
+margin-left: 2px;
+font-size: 16px;
+font-weight: 300px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#forgot-password-mobile-reg{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 2px;
+    font-size: 13px;
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#forgot-password-mobile-no.-input{
+    width: 650px;
+    height: 46px;
+    border-radius: 4px;
+    outline-style: none;
+   border-width: 1px;
+   margin-bottom: 10px;
+   font-size: 18px;
+}
+#forgot-password-OTP-message{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: 2px;
+    font-size: 13px;
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#forgot-to-main-page-btn{
+
+}
+#OTP-generating-btn{
+    margin-left: 20vh;
+    margin: 50px;
+    margin-bottom: 10px;
+    border-top: 29px;
+    font-size: 15px;
+    margin: 10x;
+    margin-top: 8px;
+    border-radius: 20px;
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    outline-style: none;
+    background-color: palevioletred;
+}
