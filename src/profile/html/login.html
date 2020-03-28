@@ -10,29 +10,30 @@
 </head>
 <body>
     
-
+    <div class="body-container">
+        <!-- This is the header section-->
         <div class="header">
-            <header id="invision-title">invision</header>
+            <!--<header id="invision-title">in</header>-->
             <div class="floating-content-in-header">
-                <p id="question-tag">already have an account?</p>
-                <button id="sign-up-btn">signup</button>
+                <p id="question-tag">create a new account</p>
+                <button id="sign-up-btn">signin</button>
             </div>
         </div>
 
-
+        <!--This is side section with a portfolio of company-->
         <div class="aside-content">
-            <aside>
-                <div id="background-img-aside-section"></div>
-                <p id="aside-section-content">Lorem, ipsum dolor sit amet consectetur 
-                     Accusantium, autem! Nadipisicing elit.
-                    emo, 
-                    veniam minima mollitia pariatur blanditiis!
-                </p>
-                <footer id="aside-footer"> hello hello heloo</footer>
+            <aside id="aside-content-block-level">
+                <div id="background-img-aside-section"></div> <!-- containes background image of aside section-->
+                <p id="invision-title">in</p>
+                <p id="aside-section-content">InVision Enterprise Edition</p>
+                <p id="aside-section-content-about-us">The design collaboration cloud for <br>larger teams</p>
+                <p id="aside-section-content-creativity">Unlimited team members. Unlimited projects.<br> Unlimited creativity.</p>
+                <button id="aside-section-read-more-btn">read more</button>
+                <h id="aside-section-trust">TRUSTED BY WORLD'S SMARTEST COMPANIES</h2>
             </aside>
-         
-        </div>
-
+         </div>
+        
+        <!--This is the main body section conatining form to fill of input values-->
         <div class="main-section-content">
 
             <div class="sub-main-section-content">
@@ -43,10 +44,11 @@
                 <label for="email-password" id="label-for-password">password</label><br>
                 <input type="password" id="password-input"><br>
                 <p id="display-error-message">please fill in the details!</p>
-                <a href="#" id="forgot-password">forgot your password</a>
-                <button id="submit-login-btn">submit</button>
+                <a href="#" id="forgot-password">forgot your password?</a>
+                <button id="submit-login-btn">login</button>
             </div>   
 
+            <!--This is the hidden section of body for signing up if its a new user-->
             <div class="hidden-sign-up-section">
                 <p id="user-mail-id-label">email address</p>
                 <input id="mail-id-hidden-section-input"  type="text"><br>
@@ -57,18 +59,29 @@
                 <button id="signup-login-btn">sign up</button>
             </div>
         </div>
-        <div class="forgot-password-page">
 
+        <!--<footer id="main-section-footer-content">i am the main footer</footer>-->
+
+    </div> <!--END OF MAIN BODY-->
+
+
+        <!--This is the hidden section of body which will be displayed is user forgets his/her password-->
+    
+        <div class="forgot-password-page">
             <p id="sign-in-otp-generate">forgot your password?</p>
             <p id ="OTP-section-para">wi'll help you set it up</p>
             <p id="forgot-password-mobile-reg">enter your mobile number</p>
-            <input id="forgot-password-mobile-no.-input" type="number"><br>
+            <input id="forgot-password-mobile-no-input" type="number"><br>
+            <p id="forgot-display-hidden-error-message">please enter your registered mobile number!</p>
             <p id = "forgot-password-OTP-message">OTP has been sent to your registered mobile number</p>
-            <button id="OTP-generating-btn">generate OTP</button>
-            <p id="forgot-to-main-page-btn"><ins>back</ins></p>
-
+            <button id="OTP-generating-btn">send OTP</button>
+            <div class="go-back-link-from-forgot-page">
+               <p id="forgot-page-to-main-page-btn"><ins>back</ins></p> 
+            </div>
+            
         </div>
-            <footer id="main-section-footer-content">i am the main footer</footer>
+        <div id="loading-gif-for-OTP"></div> <!--loading gif display-->
+            
    
    <script src="../js/login.js"></script>
 </body>
